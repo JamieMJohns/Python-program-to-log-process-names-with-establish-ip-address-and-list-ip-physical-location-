@@ -2,7 +2,7 @@
 A Program to log process (tasks) with established (connected) outgoing ip address and list process;  
 internal ip, foreign (outgoing ip) , Pid and process name as well as physical location related to outgoing ip address.    
   
-This program logs foriegn IP address and related details of any process-  
+This program logs foriegn IP address and related details of any running process-  
 that make established connections outside of your computer. 
   
 This program performs continous logging and produces information for new  
@@ -19,7 +19,7 @@ Files of this repository are;
 -> ipscan_uniquelogger_version1.py - version 1 [2017] of the code  
 -> ipscan_uniquelogger_version2.py - version 2 [2018] of the code  
 -> ipscan_uniquelogger_version1.exe - a standalone .exe of ipscan_uniquelogger_version1.py (and related modules)  
--> ipscan_uniquelogger_version2.exe - a standalone ipscan_uniquelogger_version2.exe of .py (and related modules)  
+-> ipscan_uniquelogger_version2.exe - a standalone .exe of ipscan_uniquelogger_version2.py (and related modules)  
   
 The difference of version 2 from version 1 is;  
 -> added catch/exception to code such that .exe does not suddenly  
@@ -41,8 +41,6 @@ The difference of version 2 from version 1 is;
  computers of OS windows7 and windows10; so I am unsure how the code (and .exe)  
  wil behave on other computers and opterating systems [in regard to if there is  
  a difference in used cmd commands (within .py) and their related outputs].  
-   
- Any how, hope you find the code (and program) interesting/helpful.  
  
 
 
