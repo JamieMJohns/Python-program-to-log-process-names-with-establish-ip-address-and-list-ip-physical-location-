@@ -1,0 +1,57 @@
+## $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$  Description of ' exclude_process.txt' $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+##                          [ this description will be improve/refined in further commit, but all relevant details are covered]
+##
+## Github repository of file: 
+##
+## Quick notes:    > No specific formatting required in the textfile other than lines containing '##' will be ignored by the program
+##                 > you can add/ remove as many lines as wanted, the program will re-read the file between scans (if found in directory)
+##                 > example usage of the text file is provided and explained in this file
+##
+## This textfile is associated with  program 'ipscan_uniquelogger_version3.exe' 
+## ( or code 'ipscan_uniquelogger_version3.py'' if running the python [source] code)
+## a text of this name ('exclude_process.txt') is used to specify conditions for excluding
+## particular processes [from being logged/printed in program] if a particular process
+## has an outgoing(foriegn) i.p address, PID#, Process name matching any lines which don't containt '##'
+##
+## For the program to detect and read 'exclude_process.txt' textfiles, the textfile should be named exactly as specified and placed
+## in the the same directory that py/exe file is being run from.
+##
+## '##' is used to indicate a comment line in this file [line ignored by the program after final processing of exclusion conditions ]
+## lines with '##' at any position in the line will be considered a comment, for example (below)
+svchost.exe ## this entire line will be considered as a comment too
+##
+## A good example use of this is: to exclude overload of logging/printing of processes associated Google chrome (if opened);
+##   >>> add 'chrome.exe' onto a new line with the qoutes and without including '##' in the line
+##
+## Note: this text file can be updated, changes are  detected/applied by the program as it's running.. [make sure to save text file after making a change] 
+##             (the text file is re-read,if found, after each scan; 
+##                                                          then user is alerted, in program, to changes in exclusion conditions)
+##
+##  If the text file is not found (missing in required directory or access denied); this won't cause program to crash
+##                              >>> this just means no exclusion conditions are detected and applied by program on it's next attempt read of text file
+##s
+## $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+##
+## @@@@@@@@@@@@@@@@@@@  Specific examples which are currently detected by the program (if .txt is in same directory) @@@@@@@@@@@@@@@@@@@@@@
+##
+##Below are some examples of exclusion conditions (each condition should be specified on a seperate line and handling is case sensitive):
+## 
+process_name.exe
+## above: random string representing a process name; if string 'process_name.exe' matches either string (outgoing)ip,PID# or process name
+##                                                                               then that process will be excluded from printing/logging in program
+##                                                                               (in this case a likely match is a process name)
+12345
+## above: random number representing a PID# ; if string '12345' matches either string (outgoing)ip,PID# or process name
+##                                                                       then that process will be excluded from printing/logging in program
+##                                                                       (in this case a likely match is a PID#)
+99.123.321.987
+## above: random number representing an ip adress ; if string '99.123.321.987' matches either string (outgoing)ip,PID# or process name
+##                                                                         then that process will be excluded from printing/logging in program
+##                                                                         (in this case a likely match is a  (outgoing)ip)
+##
+##@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+##
+## final note (re-iteratation of previous notes in this file): 
+##	> No specific formatting required in the textfile other than lines containing '##' will be ignored by the program
+##      > you can add/ remove as many lines as wanted, the program will re-read the file between scans (if found in directory)
+##      > example usage of this text file is outlined
