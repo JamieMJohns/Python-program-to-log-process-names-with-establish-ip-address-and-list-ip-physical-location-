@@ -10,7 +10,7 @@ The finalised commit for version3 (including; .exe , .py and 'exclude_process.tx
 Furthermore this readme will be updated when the final commit is made.
    - Jamie 22/08/19
 <pre />  
-<pre>
+
 Program description (VERSION 1 and VERSION 2  [Version 3 description (rough) at the end])#########################  
 A Program to log process (tasks) with established (connected) outgoing ip address and list process;  
 internal ip, foreign (outgoing ip) , Pid and process name as well as physical location related to outgoing ip address.    
@@ -97,4 +97,4 @@ DIFFERENCE BETWEEN VERSION 2 AND VERSION 3 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
   [few smaller details to note when updading readme in final commit final commit]
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-<pre />
+
