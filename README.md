@@ -53,6 +53,47 @@ The difference of version 2 from version 1 is;
  computers of OS windows7 and windows10; so I am unsure how the code (and .exe)  
  wil behave on other computers and opterating systems [in regard to if there is  
  a difference in used cmd commands (within .py) and their related outputs].  
- 
+ ####################################################################################################################  
+ <pre>
+ Version 3 DESCRIPTION (ROUGH DETAILS [to be update]) @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+The functionality of the code is finalised version 3, the only major changes to be made for the final commit (post-checkpoint commit) is;
+ -> add further comments to python code for context (where further contenxt is need or comments missing)
+ -> finalise program (text) description in .exe [description is defined in source code (.py) by print functions]
+ -> tidy up code [remove anything unsused/redundant]
 
 
+VERSION 3 follows the same funcationality as Version 2, with the following differences to version 3:
+
+DIFFERENCE BETWEEN VERSION 2 AND VERSION 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ >added second api [for look up geolocation dat of ip], if first original API times-out; (a check is made in the program)
+     >> API 1 (original used in version 1 and 2); ip-api.com
+         > unlimited ip-lookups (requests) over time but limited to 150 requests per minute otherwise your ip is temporarily 
+             blocked by website [as per their terms and policies]; you can unblock your ip earlier by submitting to http://ip-api.com/docs/unban
+             [note to self: add limiter to code to avoid 150 request in a minute (a very rare scenario)]
+             
+     >> API 2; ipapi.co
+         > API (website) comes with free and registered accounts, free account is limited to 1000 lookups per day
+           [note to self: add parameter to count requests]
+           
+     Further note: current code will always use API 1 over API 2, if available (when timeout-connect test is done).
+             
+> in addition showing to country/state/city for associated ip {obtained using [above API]} ... 
+   "organisation" associated with the ip is now listed
+   
+ > [if found] program reads "excluded" ip(outgoing),pid,process_name from      
+   textfile named "exclude_process.txt" which should be located (placed) in same directory as
+    the code/program .... (more details to add but example .txt file found on github repository)
+    { between scans - the program will search for and read .txt (if found) and determine if new exclusion conditions are applied;
+      the user is alerted if there is a change to exclusion conditions}
+    Exclusion conditions = exclude printing and ip look (geo-loc data with API) for processes of particular process_name,PID,ip(outgoing)
+      [look at example .txt file on github repository]
+    >> program has wont crash and handles for scenarios;
+        > text file is missing
+        > text file is empty (no text)
+        > text file is empty but on multiple lines (white spaces with no character) = handled as empty text file
+        > "comments" can be made in text file for which lines are completely ignored as exclusion condition (if "##" appears anywhere in that line)
+
+  [few smaller details to note when updading readme in final commit final commit]
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+<pre />
