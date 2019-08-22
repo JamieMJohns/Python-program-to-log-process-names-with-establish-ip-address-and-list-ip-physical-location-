@@ -1,4 +1,16 @@
 # Python-program-to-log-process-names-with-establish-ip-address-and-list-ip-physical-location-
+<pre>
+Note: 
+A checkpoint commit has just been made for version 3.. the only difference from the final commit in the
+final commit is that comments will be finished for the source code (.py) and hence finalised program description
+inside version 3 .exe file .... the funcationality of version 3 has been finalised as commited.
+
+The finalised commit for version3 (including; .exe , .py and 'exclude_process.txt' file)
+
+Furthermore this readme will be updated when the final commit is made.
+   - Jamie 22/08/19
+<pre />
+Program description (VERSION 1 and VERSION 2  [Version 3 description (rough) at the end])#########################  
 A Program to log process (tasks) with established (connected) outgoing ip address and list process;  
 internal ip, foreign (outgoing ip) , Pid and process name as well as physical location related to outgoing ip address.    
   
