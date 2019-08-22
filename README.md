@@ -11,7 +11,8 @@ Furthermore this readme will be updated when the final commit is made.
    - Jamie 22/08/19
 <pre />  
 
-Program description (VERSION 1 and VERSION 2  [Version 3 description (rough) at the end])#########################  
+Program description (VERSION 1 and VERSION 2  [Version 3 description (rough) at the end])##############################################
+
 A Program to log process (tasks) with established (connected) outgoing ip address and list process;  
 internal ip, foreign (outgoing ip) , Pid and process name as well as physical location related to outgoing ip address.    
   
@@ -53,10 +54,12 @@ The difference of version 2 from version 1 is;
  However, I will note that this code (and .exe) has only been tested on limited  
  computers of OS windows7 and windows10; so I am unsure how the code (and .exe)  
  wil behave on other computers and opterating systems [in regard to if there is  
- a difference in used cmd commands (within .py) and their related outputs].  
- ####################################################################################################################  
+ a difference in used cmd commands (within .py) and their related outputs].
+ 
+ ###################################################################################################################################### 
 
- Version 3 DESCRIPTION (ROUGH DETAILS [to be update]) @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ Version 3 DESCRIPTION (ROUGH DETAILS [to be update]) @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+ 
 The functionality of the code is finalised version 3, the only major changes to be made for the final commit (post-checkpoint commit) is;
  -> add further comments to python code for context (where further contenxt is need or comments missing)
  -> finalise program (text) description in .exe [description is defined in source code (.py) by print functions]
@@ -96,5 +99,6 @@ DIFFERENCE BETWEEN VERSION 2 AND VERSION 3 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 
   [few smaller details to note when updading readme in final commit final commit]
 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 
