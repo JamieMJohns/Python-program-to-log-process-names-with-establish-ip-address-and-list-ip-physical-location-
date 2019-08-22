@@ -9,7 +9,8 @@ The finalised commit for version3 (including; .exe , .py and 'exclude_process.tx
 
 Furthermore this readme will be updated when the final commit is made.
    - Jamie 22/08/19
-<pre />
+<pre />  
+<pre>
 Program description (VERSION 1 and VERSION 2  [Version 3 description (rough) at the end])#########################  
 A Program to log process (tasks) with established (connected) outgoing ip address and list process;  
 internal ip, foreign (outgoing ip) , Pid and process name as well as physical location related to outgoing ip address.    
@@ -54,9 +55,8 @@ The difference of version 2 from version 1 is;
  wil behave on other computers and opterating systems [in regard to if there is  
  a difference in used cmd commands (within .py) and their related outputs].  
  ####################################################################################################################  
- <pre>
- Note: 
- Version 3 DESCRIPTION (ROUGH DETAILS [to be update]) @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+
+ Version 3 DESCRIPTION (ROUGH DETAILS [to be update]) @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 The functionality of the code is finalised version 3, the only major changes to be made for the final commit (post-checkpoint commit) is;
  -> add further comments to python code for context (where further contenxt is need or comments missing)
  -> finalise program (text) description in .exe [description is defined in source code (.py) by print functions]
@@ -65,7 +65,7 @@ The functionality of the code is finalised version 3, the only major changes to 
 
 VERSION 3 follows the same funcationality as Version 2, with the following differences to version 3:
 
-DIFFERENCE BETWEEN VERSION 2 AND VERSION 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+DIFFERENCE BETWEEN VERSION 2 AND VERSION 3 $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
  >added second api [for look up geolocation dat of ip], if first original API times-out; (a check is made in the program)
      >> API 1 (original used in version 1 and 2); ip-api.com
          > unlimited ip-lookups (requests) over time but limited to 150 requests per minute otherwise your ip is temporarily 
@@ -83,7 +83,7 @@ DIFFERENCE BETWEEN VERSION 2 AND VERSION 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
    
  > [if found] program reads "excluded" ip(outgoing),pid,process_name from      
    textfile named "exclude_process.txt" which should be located (placed) in same directory as
-    the code/program .... (more details to add but example .txt file found on github repository)
+    the code/program .... (more details to add but example .txt file found on github repository; helpful comments added in it)
     { between scans - the program will search for and read .txt (if found) and determine if new exclusion conditions are applied;
       the user is alerted if there is a change to exclusion conditions}
     Exclusion conditions = exclude printing and ip look (geo-loc data with API) for processes of particular process_name,PID,ip(outgoing)
@@ -95,6 +95,6 @@ DIFFERENCE BETWEEN VERSION 2 AND VERSION 3 @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
         > "comments" can be made in text file for which lines are completely ignored as exclusion condition (if "##" appears anywhere in that line)
 
   [few smaller details to note when updading readme in final commit final commit]
-
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 <pre />
